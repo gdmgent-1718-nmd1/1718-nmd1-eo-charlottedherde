@@ -16,3 +16,414 @@ img {
 }
 
 /* Voeg jouw css hieraan toe */
+
+.festival{
+    font-size: 20px;
+    font-weight: bold;
+    color: #FF367A;
+    margin-left: 30px;
+    margin-bottom: -5px;
+    margin-top: 60px;
+    
+}
+/* concurrantie analyse */
+
+
+
+.table{
+    max-width: 1200px;
+    
+}
+
+.fest{
+    font-weight: bold;
+    width: 100px;
+}
+
+.pos{
+    background-color: lightgreen;
+    width: 500px;
+    height: 50px;
+}
+
+.neg{
+    background-color: lightcoral;
+    width: 500px;
+    height: 50px;
+}
+
+.rijen{
+    background-color: #AFCFDD; 
+    height: 50px;
+    padding: 7px 10px 10px 10px;
+
+}
+
+.rijenkleur{
+    background-color: #D5EDF8;
+    padding: 7px 10px 10px 10px;
+}
+
+
+/* digital styleguide */ 
+
+/* header */
+
+.logo{
+    margin-bottom: 20px;
+}
+
+.header{
+    margin-bottom: 75px;
+}
+
+.header logo{
+    float: left;
+
+}
+
+.header-a{ 
+
+    padding-right: 50px;
+    margin-top: -135px;
+    color: #75D9C7;
+    font-weight: bold;
+    font-size: 25px;
+    float: right;
+   
+}
+
+.nav{
+    padding:50px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+.nav:visited{
+    color: #75D9C7;
+}
+
+.nav:hover{
+    color: #FF367A;  
+}
+
+.tekst{
+    font-size: 20px;
+    float: right;
+    margin-right: 150px;
+    margin-top: -60px;
+    margin-bottom: 70px;
+    border: solid 1px black;
+    padding: 10px 10px 10px 10px;
+}
+
+/* center page */
+
+ /* podia foto */
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 80px;
+    
+}
+.stage {
+    margin-left: 100px;
+    display: block;
+    width: 250px; 
+    height: 125px;
+}
+
+.overlay{
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    width: 25%;
+    margin-left:143px;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.container:hover .overlay{
+    opacity:1;
+}
+
+/* artiest foto */
+
+.artiest{
+   margin-left: 100px;
+   -moz-transition: all 0.3s;
+   -webkit-transition: all 0.3s;
+   transition: all 0.3s;
+   
+}
+
+.artiest:hover img{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* line up box */
+
+
+
+.box{
+    margin-bottom: 70px;
+    
+}
+
+.kader{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    width:150px;
+    margin-left: 100px;
+    padding:10px;
+    background-color: #75D9C7;
+    border: solid 5px white;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.kader:hover{
+    border-color:#FF367A;
+}
+
+.informatie{
+    border: solid 1px black;
+    float: right;
+    margin-top: -140px;
+    margin-right: 150px;
+}
+
+/* sponsors */ 
+
+.sponsor{
+    margin-left: 100px;
+    margin-bottom: 70px;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.sponsor:hover img{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.informatie2{
+    border: solid 1px black;
+    float: right;
+    margin-top: -10px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+}
+
+ /* top-button*/
+
+ .top{
+     margin-left: 100px;
+     margin-bottom: 70px;
+     opacity: 0.5;
+ }
+
+ .top:hover{
+     opacity: 1.0;
+ }
+
+ .tekst6{
+    font-size: 20px;
+    float: right;
+    margin-right: 150px;
+    margin-top: -170px;
+    margin-bottom: 70px;
+    border: solid 1px black;
+    padding: 10px 10px 10px 10px;
+ }
+
+
+/* facebook */
+
+.facebook{
+    margin-left: 100px;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.facebook:hover img{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+ /* colors */
+
+ colors{
+     
+ }
+ .color1{
+     font-size: 20px;
+     width:200px;
+     height: 200px;
+     background-color: #75D9C7;
+     border: solid 1px #75D9C7;
+     padding: 10px 10px 10px 10px;
+     display:inline-block;
+     margin-left: 100px;
+     
+
+ }
+
+ .color2{
+    font-size: 20px;
+    width:200px;
+    height: 200px;
+    background-color: #FF367A;
+    border: solid 1px #FF367A;
+    padding: 10px 10px 10px 10px;
+    display: inline-block;
+    margin-left: 100px;
+    
+ }
+
+.color3{
+    font-size: 20px;
+    color: white;
+    width:200px;
+    height: 200px;
+    background-color: #000000;
+    border: solid 1px #000000;
+    padding: 10px 10px 10px 10px;
+    display: inline-block;
+    margin-left: 100px;
+    
+}
+
+.color4{
+    font-size: 20px;
+    width:200px;
+    height: 200px;
+    background-color: #FFFFFF;
+    border: solid 1px #000000;
+    padding: 10px 10px 10px 10px;
+    display: inline-block;
+    margin-bottom: 70px;
+    margin-left: 100px;
+    
+}
+
+/* typografie */
+
+.titel1{
+    font-size: 50px;
+    color: #FF367A;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 100px;
+}
+
+.titel2{
+    font-size: 24px;
+    color: #75D9C7;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 100px;
+}
+
+.bloktekst{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 100px;
+}
+
+.tekst2{
+    font-size: 20px;
+    float: right;
+    margin-top: -300px;
+    margin-bottom: 10px;
+    border: solid 1px black;
+    padding: 10px 10px 10px 10px;
+}
+
+.tekst3{
+    font-size: 20px;
+    float: right;
+    margin-top: -180px;
+    margin-bottom: 70px;
+    border: solid 1px black;
+    padding: 10px 10px 10px 10px;
+}
+
+.tekst4{
+    font-size: 20px;
+    float: right;
+    margin-top: -90px;
+    margin-bottom: 70px;
+    border: solid 1px black;
+    padding: 10px 10px 10px 10px;
+
+}
+
+/* tekst links */ 
+
+.underline{
+    font-size: 20px;
+    margin-left: 100px;
+    max-width: 100px;
+    color: black;
+    
+    
+}
+
+.underline:hover{
+    border-bottom: solid 2px #FF367A;
+    color: black;
+}
+
+.fullcolor{
+    font-size: 20px;
+    margin-left: 100px; 
+    max-width: 100px;
+}
+
+.fullcolor:hover{
+    text-decoration: underline;
+    color: #FF367A;
+}
+
+.tekst5{
+    font-size: 20px;
+    float: right;
+    margin-right: -821px;
+    margin-top: -50px;
+    margin-bottom: 70px;
+    border: solid 1px black;
+    padding: 10px 10px 10px 10px;
+}
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
