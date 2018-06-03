@@ -12,7 +12,7 @@ body {
 }
 
 img {
-    max-width: 100%; /* Afbeeldingen responsive maken */
+    max-width: 150%; /* Afbeeldingen responsive maken */
 }
 
 /* Voeg jouw css hieraan toe */
@@ -108,7 +108,7 @@ img {
 }
 
 .tekst{
-    font-size: 20px;
+    font-size: 14px;
     float: right;
     margin-right: 150px;
     margin-top: -60px;
@@ -124,24 +124,24 @@ img {
     position: relative;
     width: 100%;
     max-width: 500px;
-    margin-bottom: 80px;
+    margin-bottom: 150px;
     
 }
 .stage {
     margin-left: 100px;
     display: block;
-    width: 250px; 
-    height: 125px;
+    width: 150px; 
+    height: 25px;
 }
 
 .overlay{
     position: absolute; 
-    bottom: 0; 
+    bottom: -80px; 
     background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.5); 
     color: #f1f1f1; 
     width: 25%;
-    margin-left:143px;
+    margin-left:135px;
     transition: .5s ease;
     opacity:0;
     color: white;
@@ -204,6 +204,7 @@ img {
     float: right;
     margin-top: -140px;
     margin-right: 150px;
+    font-size: 14px;
 }
 
 /* sponsors */ 
@@ -227,7 +228,7 @@ img {
     float: right;
     margin-top: -10px;
     margin-right: 150px;
-    margin-bottom: 50px;
+    font-size: 14px;
 }
 
  /* top-button*/
@@ -243,7 +244,7 @@ img {
  }
 
  .tekst6{
-    font-size: 20px;
+    font-size: 14px;
     float: right;
     margin-right: 150px;
     margin-top: -170px;
@@ -271,64 +272,62 @@ img {
 
  /* colors */
 
- colors{
-     
- }
+
  .color1{
-     font-size: 20px;
-     width:200px;
-     height: 200px;
+     font-size: 14px;
+     width:150px;
+     height: 150px;
      background-color: #75D9C7;
      border: solid 1px #75D9C7;
      padding: 10px 10px 10px 10px;
      display:inline-block;
-     margin-left: 100px;
+     margin-left: 50px;
      
 
  }
 
  .color2{
-    font-size: 20px;
-    width:200px;
-    height: 200px;
+    font-size: 14px;
+    width:150px;
+    height: 150px;
     background-color: #FF367A;
     border: solid 1px #FF367A;
     padding: 10px 10px 10px 10px;
     display: inline-block;
-    margin-left: 100px;
+    margin-left: 50px;
     
  }
 
 .color3{
-    font-size: 20px;
+    font-size: 14px;
     color: white;
-    width:200px;
-    height: 200px;
+    width:150px;
+    height: 150px;
     background-color: #000000;
     border: solid 1px #000000;
     padding: 10px 10px 10px 10px;
     display: inline-block;
-    margin-left: 100px;
+    margin-left: 50px;
     
 }
 
 .color4{
-    font-size: 20px;
-    width:200px;
-    height: 200px;
+    font-size: 14px;
+    width:150px;
+    height: 150px;
     background-color: #FFFFFF;
     border: solid 1px #000000;
     padding: 10px 10px 10px 10px;
     display: inline-block;
     margin-bottom: 70px;
-    margin-left: 100px;
+    margin-left: 50px;
     
 }
 
 /* typografie */
 
 .titel1{
-    font-size: 50px;
+    font-size: 35px;
     color: #FF367A;
     font-weight: bold;
     font-family: 'Raleway', sans-serif;
@@ -350,7 +349,7 @@ img {
 }
 
 .tekst2{
-    font-size: 20px;
+    font-size: 14px;
     float: right;
     margin-top: -300px;
     margin-bottom: 10px;
@@ -359,7 +358,7 @@ img {
 }
 
 .tekst3{
-    font-size: 20px;
+    font-size: 14px;
     float: right;
     margin-top: -180px;
     margin-bottom: 70px;
@@ -368,7 +367,7 @@ img {
 }
 
 .tekst4{
-    font-size: 20px;
+    font-size: 14px;
     float: right;
     margin-top: -90px;
     margin-bottom: 70px;
@@ -380,9 +379,9 @@ img {
 /* tekst links */ 
 
 .underline{
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 100px;
-    max-width: 100px;
+    max-width: 88px;
     color: black;
     
     
@@ -394,7 +393,7 @@ img {
 }
 
 .fullcolor{
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 100px; 
     max-width: 100px;
 }
@@ -405,9 +404,9 @@ img {
 }
 
 .tekst5{
-    font-size: 20px;
+    font-size: 14px;
     float: right;
-    margin-right: -821px;
+    margin-right: -570px;
     margin-top: -50px;
     margin-bottom: 70px;
     border: solid 1px black;
